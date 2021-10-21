@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+    
+    body {
+        background-color: #675a45;
+    }
+    
+    
+    nav{
+        
+        text-align: right;
+        padding-top: auto;
+        padding-bottom: auto;
+    }
+    
+    nav a{ /*all the links in this group,nav will have the adjustments applied*/
+    
+        font-family: 'Kaisei HarunoUmi', serif;
+        text-decoration: none;
+        color: black;
+        margin-right: 50px;
+        margin-top: 20px;
+        font-size: 15pt;
+        font-weight: bold;
+        border-style:solid;
+    
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    li{
+        list-style:none;
+    }
+    
+    /* NAVBAR STYLING STARTS*/
+    
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        background-color:#c1c381;
+        color:black;
+        border-bottom: 1px solid black;
+        height: 100px;
+        
+    }
+    
+    .nav-links a {
+        color:black;
+    }
+    
+    li a {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+      }
+    
+      .ul{
+        list-style-type: none;
+        overflow: hidden;
+      }
+    
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        text-align: center;
+        padding: 5px;
+        text-decoration: none;
+      }
+    
+    
+    
+    .centered {
+        position: absolute;
+            top: 40%;
+            bottom: 55%;
+            right:5%;
+            transform: translate(-50%, -50%);
+            font-size: 40pt;
+            width: 50%;
+            font-family: 'Crimson Text', serif;
+            font-weight: bolder;
+            color: black;
+            background-color: #fdca70;
+           
+          }
+        
+    
+          .column{
+            color:  black;
+            text-align: left;
+           padding-left: 200px;
+          
+        }
+        
+       h1{
+        display: inline-block;
+        background-color: #67a7a5;
+        margin-left: 500px;
+       padding-top: 15px;
+       padding-bottom: 15px;
+      padding-left: 80px;
+      padding-right: 110px;
+      text-align: center;
+      font-size: 15pt;
+      margin-top: 100px;
+       }
+
+       .flex-container{
+        display:flex;
+        padding-top: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+    
+    }
+
+  
+    h2{
+        font-size: 40pt;
+        margin-left: 180px;
+     
+        
+    }
+
+    h4{
+        font-size: 40pt;
+        margin-left: 280px;
+        
+    }
+
+    h5{
+        font-size: 40pt;
+        margin-left: 400px;
+    }
+
+    h6{
+        font-size: 40pt;
+        margin-left: 430px;
+      
+    }
+
+    h7{
+        font-size: 20pt;
+        margin-left: 100px;
+      
+    }
+
+    h8{
+        font-size: 20pt;
+        margin-left: 140px;
+      
+    }
+
+    h9{
+        font-size: 20pt;
+        margin-left: 200px;
+    }
+
+    h10{
+        font-size: 20pt;
+        margin-left: 290px;
+      
+    }
+
+    #names{
+        border-style: solid;
+        background-color: white;
+        width: 90%;
+    }
+
+article{
+    display: flex;
+    word-spacing: 100%;
+    border-style: solid;
+    background-color: white;
+    width: 90%;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.submit{
+display: inline-block;
+        background-color: #67a7a5;
+        margin-left: 550px;
+       padding-top: 155px;
+       padding-bottom: 55px;
+      padding-left: 35px;
+      padding-right: 35px;
+      text-align: center;
+      font-size: 15pt;
+      margin-top: 50px;
+      border-radius: 50px;
+      border-style: solid;
+      font-size: 25pt;
+    }
+    
+
+        footer{
+            background: #c1c381;
+              color: black;
+              text-decoration: none;
+              margin-top: 100px;
+              text-align: center;
+              font-size: 10pt;
+          }
+
+          h3{
+            padding: 30px;
+            padding-left: 3px;
+            font-size: 17pt;
+            
+        }
+    
+     
+
+    
